@@ -18,11 +18,6 @@ function draw() {
   image(textimg,x,180);
 }
 
-function Easing(Type, from, to, timer1, timer2) {
-  if(Type == 'Simple'){
-    
-}
-
 function PositionSet(PosX, PosY){
   x = PosX+240;
   y = PosY+180;
