@@ -1,10 +1,10 @@
 var x = 0;
 var y = 0;
 var timer = 0;
-var TextImg;
+var textimg;
 
 function preload(){
-  TextImg = loadImg('text.png');
+  textimg = loadImg('text.png');
 }
 
 function setup() {
@@ -15,7 +15,7 @@ function draw() {
   background(0);
   
   x += (240-x)/8;
-  image(TextImg,x,180);
+  image(textimg,x,180);
 }
 
 function Easing(Type, from, to, timer1, timer2) {
