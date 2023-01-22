@@ -18,6 +18,7 @@ function draw() {
   x += (240-x)/8;
   image(TextImg,x,180);
   
+  fill(255,0,0);
   ellipse(240, 180, 50, 50);
   
 }
