@@ -1,4 +1,5 @@
 var x = 0;
+var y = 0;
 var TextImg;
 
 function preload(){
@@ -24,5 +25,9 @@ function draw() {
 function Easing(Type, from, to, timer1, timer2) {
   if(Type == 'Simple'){
     
-  }
+}
+
+function PositionSet(PosX, PosY){
+  x = PosX+240;
+  y = PosY+180;
 }
