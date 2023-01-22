@@ -15,7 +15,7 @@ function draw() {
   background(0);
   
   x += (240-x)/8;
-  image(textimg,x,180);
+  image(textimg,240,180);
 }
 
 function PositionSet(PosX, PosY){
