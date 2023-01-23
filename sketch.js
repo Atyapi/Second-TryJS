@@ -1,10 +1,10 @@
 var x = 0;
 var y = 0;
 var timer = 0;
-var textimg;
+var atyapi;
 
 function preload(){
-  textimg = loadImg('text.png');
+  atyapi = loadImg('text.png');
 }
 
 function setup() {
@@ -15,7 +15,7 @@ function draw() {
   background(0);
   
   x += (240-x)/8;
-  image(textimg,240,180);
+  image(atyapi,240,180);
 }
 
 function PositionSet(PosX, PosY){
