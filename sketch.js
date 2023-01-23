@@ -1,7 +1,7 @@
 var x = 0;
 var y = 0;
 var timer = 0;
-var atyapi;
+let atyapi;
 
 function preload(){
   atyapi = loadImg('text.png');
