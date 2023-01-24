@@ -15,7 +15,11 @@ function draw() {
   background(0);
   
   x += (240-x)/8;
-  image(atyapi,240,180);
+  image(atyapi,x,180);
+  
+  noStroke();
+  fill(255,0,0);
+  ellipse(x, 180, 50, 50);
 }
 
 function PositionSet(PosX, PosY){
