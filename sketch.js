@@ -8,7 +8,6 @@ function preload(){
 }
 
 function setup() {
-  preload();
   createCanvas(480, 360);
 }
 
@@ -21,9 +20,4 @@ function draw() {
   noStroke();
   fill(255,0,0);
   ellipse(x, 180, 50, 50);
-}
-
-function PositionSet(PosX, PosY){
-  x = PosX+240;
-  y = PosY+180;
 }
