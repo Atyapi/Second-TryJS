@@ -8,6 +8,7 @@ function preload(){
 }
 
 function setup() {
+  preload();
   createCanvas(480, 360);
 }
 
